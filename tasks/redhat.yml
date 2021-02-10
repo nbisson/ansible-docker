@@ -9,8 +9,8 @@
 - name: Install docker
   yum:
     name:
-      - docker-ce-19.03.9-3
-      - docker-ce-cli-19.03.9-3
+      - docker-ce-19.03.9
+      - docker-ce-cli-19.03.9
       - containerd.io
     state: present
 
